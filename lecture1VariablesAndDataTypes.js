@@ -76,8 +76,11 @@ typeof age // typeof this keyword is used for identify variable data type
 //  6.Bigint
 //  7.Symbol
 
-let blackmoney = BigInt("88477464488347747874");
+let blackmoney = BigInt("88477464488347747874");// it is used for big number 
 console.log(typeof blackmoney);
+
+let j = Symbol("#%#@$%$%(*&(");
+
 
 
 // NON-PRIMITIVE
