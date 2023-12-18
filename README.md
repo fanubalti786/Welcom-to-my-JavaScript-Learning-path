@@ -8,8 +8,8 @@ After completing the tutorial curriculum, I embark on a journey of building smal
 Feel free to collaborate, provide feedback, or suggest improvements. Let's learn and grow together in the vast world of JavaScript!
 Let's code together and build a strong foundation in JavaScript! Happy coding! 🚀✨
 
-Lecture 1 (Variables and Data Types)
-In this lecture I learn the following points.
+# Lecture1(Variables and Data Types)🚀✨
+<strong>In this lecture I learn the following points.</strong>
 1. Installation of vscode
 2. I study how to connect javascript to vscode using HTML file.
 3. I study console.log for print messages.
