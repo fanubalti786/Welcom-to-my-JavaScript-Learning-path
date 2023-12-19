@@ -22,3 +22,22 @@ Let's code together and build a strong foundation in JavaScript! Happy coding! �
 10. Basics of how to create objects and its basic functions
 11. QNO1: Create a const object named "Product" to store the information shown in the figure?
 12. QNO2: Create a const object called "Profile" to store the information shown in the image?
+
+# lecture2(OperatorsAndConditionalStatements)🚀✨
+<strong>In this lecture I learn the following points.</strong>
+1. 00:00:- Introduction
+2. 00:31:- Comments in JS
+3. 06:55:- Arithmetic Operators
+4. 15:03:- Unary Operators
+5. 20:33:- Assignment Operators
+6. 23:37:- Comparison Operators
+7. 30:27:- Logical Operators
+8. 54:31:- Ternary Operators
+9. 38:08:- Conditional Statements 
+10. 43:31:- if-else Statement
+11. 49:06:- else-if Statement
+12. 58:30:- MDN Docs
+13. 01:03:00:- Let's Practice
+14. 01:20:00:- Switch
+
+
