@@ -192,7 +192,7 @@ else
     console.log(num, "is Not a multiple of 5");
 }
 
-//QNO2: write a code which can give grades to students according to their scores?
+//QNO2: write a code which can give grades to students according to their percentage of marks?
 // 90 to 100, A 
 // 70 to 89, B 
 // 60 to 69, C 
@@ -200,7 +200,7 @@ else
 // 0 t0 49, F 
 
 
-let AverMarks = prompt("Enter your marks percentage");
+let AverMarks = prompt("Enter your marks percentage (0 to 100)");
 
 if(AverMarks>=90 && AverMarks<=100)
 {
@@ -222,14 +222,20 @@ else if(AverMarks>=50 && AverMarks<=59)
     console.log("you got D grade");
 }
 
-else if(AverMarks<=49)
+else if(AverMarks>=0 && AverMarks<=49)
 {
-    console.log("you got F grade its mean your are fail");
+    console.log("you got F grade its mean you are fail");
 }
 
 else 
 {
     console.log("your input is invalid");
+}
+
+
+for(let i=1; i<=5; ++i)
+{
+    console.log("hello every one");
 }
 
 
