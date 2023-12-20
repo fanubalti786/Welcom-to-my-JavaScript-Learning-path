@@ -293,7 +293,7 @@ console.log(res);//output is S: its not a original string value
 
 
 
-// Practise Question
+// Practise Questio
 // prompt the user to enter their full name. Generate the username for them based on the input
     //Start user with @, followed their full name and ending with the full name length?
 
