@@ -41,3 +41,20 @@ Let's code together and build a strong foundation in JavaScript! Happy coding! �
 14. 01:20:00:- Switch
 
 
+# lecture2(LoopsAndStrings)🚀✨
+<strong>In this lecture I learn the following points.</strong>
+TimeStamps
+1. 0:00 Introduction
+2. 3:40 for Loop
+3. 22:20 while Loop
+4. 24:13 do-while Loop
+5. 26:45 for-of Loop
+6. 31:30 for - in Loop
+7. 34:10 Let's Practice 
+8. 44:00 Strings in JS
+9. 48:57 Template Literals 
+10. 57:50 String Methods in JS
+11. 1:15:49 Let's Practice
+
+
+
