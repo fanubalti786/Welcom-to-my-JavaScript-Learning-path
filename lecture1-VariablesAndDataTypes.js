@@ -2,7 +2,7 @@ console.log("Welcome to java mastery path");
 console.log("how we can use the print function with console.log and alert function")
 console.log("My name is irfan haider");
 console.log("my first lacture of javaScript")
-alert("something gonna wrong");;
+alert("something gonna wrong");
 
 console.log("2nd lecture");
 console.log("inthis lecture i will explore all dynamic data types of javascript");

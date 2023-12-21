@@ -195,7 +195,7 @@ let Name = "irfan";
 // 2. string length
 console.log(Name.length);
 
-
+//yyyy
 // 3. index or indices
 
 let str2 = "ApnaCollege";
