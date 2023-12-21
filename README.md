@@ -41,7 +41,7 @@ Let's code together and build a strong foundation in JavaScript! Happy coding! �
 14. 01:20:00:- Switch
 
 
-# lecture2(LoopsAndStrings)🚀✨
+# lecture3(LoopsAndStrings)🚀✨
 <strong>In this lecture I learn the following points.</strong>
 TimeStamps
 1. 0:00 Introduction
@@ -58,3 +58,14 @@ TimeStamps
 
 
 
+# lecture4(Arrays)🚀✨
+<strong>In this lecture I learn the following points.</strong>
+Notes available at :  https://www.apnacollege.in/notes
+Timstamps
+1. 00:00 INTRO
+2. 01:03 ARRAYS
+3. 11:02 ARRAYS INDICES
+4. 14:58 LOOPING OVER ARRAYS
+5. 22:38 PRACTICE QS
+6. 34:32 ARRAY METHODS 
+7. 56:26 PRACTICE QS
