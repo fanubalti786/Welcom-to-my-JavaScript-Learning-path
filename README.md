@@ -43,6 +43,7 @@ Let's code together and build a strong foundation in JavaScript! Happy coding! �
 
 # lecture3(Loops & Strings)🚀✨
 <strong>In this lecture I learn the following points.</strong>
+
 TimeStamps
 1. 0:00 Introduction
 2. 3:40 for Loop
@@ -60,6 +61,7 @@ TimeStamps
 
 # lecture4(Arrays)🚀✨
 <strong>In this lecture I learn the following points.</strong>
+
 Notes available at :  https://www.apnacollege.in/notes
 Timstamps
 1. 00:00 INTRO
@@ -74,6 +76,7 @@ Timstamps
 
 # lecture5(Functions&Methods)🚀✨
 <strong>In this lecture I learn the following points.</strong>
+
  Notes available at :  https://www.apnacollege.in/notes
  1. Simple function 
  2. Arrow function
