@@ -63,6 +63,7 @@ TimeStamps
 <strong>In this lecture I learn the following points.</strong>
 
 Notes available at :  https://www.apnacollege.in/notes
+
 Timstamps
 1. 00:00 INTRO
 2. 01:03 ARRAYS
