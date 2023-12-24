@@ -8,7 +8,7 @@ After completing the tutorial curriculum, I embark on a journey of building smal
 Feel free to collaborate, provide feedback, or suggest improvements. Let's learn and grow together in the vast world of JavaScript!
 Let's code together and build a strong foundation in JavaScript! Happy coding! 🚀✨
 
-# Lecture1(Variables and Data Types)🚀✨
+# Lecture1(Variables & Data Types)🚀✨
 <strong>In this lecture I learn the following points.</strong>
 1. Installation of vscode
 2. I study how to connect javascript to vscode using HTML file.
@@ -23,7 +23,7 @@ Let's code together and build a strong foundation in JavaScript! Happy coding! �
 11. QNO1: Create a const object named "Product" to store the information shown in the figure?
 12. QNO2: Create a const object called "Profile" to store the information shown in the image?
 
-# lecture2(OperatorsAndConditionalStatements)🚀✨
+# lecture2(Operators & Conditional Statements)🚀✨
 <strong>In this lecture I learn the following points.</strong>
 1. 00:00:- Introduction
 2. 00:31:- Comments in JS
@@ -41,7 +41,7 @@ Let's code together and build a strong foundation in JavaScript! Happy coding! �
 14. 01:20:00:- Switch
 
 
-# lecture3(LoopsAndStrings)🚀✨
+# lecture3(Loops & Strings)🚀✨
 <strong>In this lecture I learn the following points.</strong>
 TimeStamps
 1. 0:00 Introduction
@@ -69,3 +69,18 @@ Timstamps
 5. 22:38 PRACTICE QS
 6. 34:32 ARRAY METHODS 
 7. 56:26 PRACTICE QS
+
+
+
+# lecture5(Functions&Methods)🚀✨
+<strong>In this lecture I learn the following points.</strong>
+ Notes available at :  https://www.apnacollege.in/notes
+ 1. Simple function 
+ 2. Arrow function
+ 3. Practise Q for simple and Arrow fucntion
+ 3. Different methods of loop array
+ 4. arr.forEach loop in array
+ 5. arr.map loop in array
+ 6. arr.filter loop in array
+ 7. arr.reduce loop in array 
+ 8. Practise Q for all Methods of loop array
