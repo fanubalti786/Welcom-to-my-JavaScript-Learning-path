@@ -10,6 +10,8 @@ Let's code together and build a strong foundation in JavaScript! Happy coding! �
 
 # Lecture1(Variables & Data Types)🚀✨
 <strong>In this lecture I learn the following points.</strong>
+
+Slides/Notes : https://www.apnacollege.in/notes
 1. Installation of vscode
 2. I study how to connect javascript to vscode using HTML file.
 3. I study console.log for print messages.
@@ -25,6 +27,10 @@ Let's code together and build a strong foundation in JavaScript! Happy coding! �
 
 # lecture2(Operators & Conditional Statements)🚀✨
 <strong>In this lecture I learn the following points.</strong>
+
+Notes available at :  https://www.apnacollege.in/notes
+
+TimeStamps
 1. 00:00:- Introduction
 2. 00:31:- Comments in JS
 3. 06:55:- Arithmetic Operators
@@ -43,6 +49,8 @@ Let's code together and build a strong foundation in JavaScript! Happy coding! �
 
 # lecture3(Loops & Strings)🚀✨
 <strong>In this lecture I learn the following points.</strong>
+
+Notes available at :  https://www.apnacollege.in/notes
 
 TimeStamps
 1. 0:00 Introduction
