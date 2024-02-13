@@ -100,14 +100,16 @@ Timstamps
  8. Practise Q for all Methods of loop array
 
 
- <!-- # lecture6(DocumentObjectMOdel(DOM))🚀✨
+ # lecture6(DocumentObjectMOdel(DOM))🚀✨
 <strong>In this lecture I learn the following points.</strong>
 
 Notes available at :  https://www.apnacollege.in/notes
 
 TimeStamps
 00:01 Chapter six covers the important concept of DOM (Document Object Model).
+
 02:20 Building a house analogy for understanding the Document Object Model (DOM)
+
 07:33 Introduction to DOM concepts
 10:12 The style tag is used to connect CSS to an HTML file.
 14:21 Adding styling and JavaScript code to the webpage
@@ -268,7 +270,7 @@ Timstamps
 1:13:21 Using Async Await for managing asynchronous tasks.
 1:17:20 Using async await for better asynchronous programming
 1:19:08 Understanding IIFE (Immediately Invoked Function Expression)
-1:22:44 Covered important concepts of Asynchronous Programming in JavaScript -->
+1:22:44 Covered important concepts of Asynchronous Programming in JavaScript
 
 
 
