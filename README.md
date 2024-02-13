@@ -87,6 +87,8 @@ Timstamps
 <strong>In this lecture I learn the following points.</strong>
 
  Notes available at :  https://www.apnacollege.in/notes
+
+ Timstamps
  1. Simple function 
  2. Arrow function
  3. Practise Q for simple and Arrow fucntion
@@ -132,3 +134,143 @@ TimeStamps
 1:14:33 Basic concepts of JavaScript: concatenation, accessing HTML elements, changing inner text property
 1:18:33 Changing the properties of DOM elements
 1:20:26 Accessing and manipulating DOM elements using JavaScript
+
+# lecture7(DOM-Part2.js)🚀✨
+<strong>In this lecture I learn the following points.</strong>
+
+Notes available at :  https://drive.google.com/drive/folder...
+
+Timstamps
+00:01 DOM (Document Object Model) is an important concept in JavaScript.
+01:59 Accessing attributes using DOM methods in JavaScript
+06:31 Accessing and manipulating the inline style of an element in JavaScript.
+08:36 Changing CSS properties using JavaScript
+12:56 Adding and positioning elements in the DOM using append, prepend, before, and after methods
+15:04 Adding elements to the DOM using JavaScript
+19:02 Creating a new button element and styling it
+21:09 Adding styling to elements using JavaScript
+25:03 Using class list to add and remove classes in JavaScript
+26:54 Adding and removing classes in DOM allows for dynamic styling of elements.
+
+
+# lecture8(Events In JavaScript)🚀✨
+<strong>In this lecture I learn the following points.</strong>
+
+Notes available at :  https://drive.google.com/drive/folder...
+
+Timstamps
+00:01 Events are interesting changes in JavaScript code that can be used to build different types of websites.
+01:59 Events in JavaScript allow for triggering tasks based on user interactions or system conditions.
+06:20 Handling click and double click events in JavaScript
+08:34 Events in JavaScript allow us to track and handle different types of actions
+13:36 Event object in JavaScript provides details about the event type, target, and other background information.
+15:47 The event object in JavaScript contains various properties like target, type, client, etc.
+20:14 Event handlers are used to handle events and execute code when certain events occur.
+22:45 Removing event handlers in JavaScript
+26:20 Create a button that toggles between dark and light mode
+28:21 Changing the current mode from light to dark and vice versa based on button click
+
+
+# lecture9(Project Of Tic Tac Toy Game)🚀✨
+<strong>In this lecture I learn the following points.</strong>
+
+Code available here : https://github.com/shradha-khapra/Jav...
+
+Timstamps
+00:01 Building a Tic Tac Toe game using JavaScript
+01:55 Tic Tac Toe game basics in JavaScript
+06:35 Creating interactive game boxes using buttons
+09:08 Styling the game container and elements
+13:42 Styling the tic-tac-toe game buttons
+15:53 Setting up the game layout and styling
+20:46 Creating and accessing 2D arrays
+22:58 Working with 2D arrays in JavaScript
+26:59 Setting the value to false for future turns
+29:26 Implementing a function to check for the winner
+32:56 How to check patterns of zero, one, and two in the Tic Tac Toe game
+34:49 Accessing and storing values from Tic Tac Toe game boxes using JavaScript.
+39:04 Implementing a new game button functionality
+41:17 Using JavaScript to manipulate DOM elements and display messages based on game results
+45:55 Creating functions for new game, enable boxes, reset values, and trigger events.
+48:09 Creating a Tic Tac Toe game in JavaScript with styling and functionality
+52:27 Tic Tac Toe game as a data structure algorithm problem in web development
+
+
+# lecture10(classes and objects)🚀✨
+<strong>In this lecture I learn the following points.</strong>
+
+Notes available at :  https://drive.google.com/drive/folder...
+
+Timstamps
+Timstamps
+00:01 Understanding classes, objects, and inheritance in JavaScript.
+02:07 Creating and working with objects in JavaScript
+06:07 Understanding prototype and object creation in JavaScript
+08:34 Understanding prototypes and inheritance in JavaScript
+12:43 Classes and objects allow for creating reusable functions and properties for multiple instances.
+14:39 Understanding classes, objects, and prototypes in JavaScript
+18:52 Understanding class, methods, and properties in JavaScript
+23:00 Understanding class properties and creating objects
+26:48 Custom constructors can be created in JavaScript to perform specific tasks.
+30:04 Understanding the role of constructor in object creation
+34:42 Classes create a blueprint to define and reuse objects, reducing code repetition.
+36:27 Understanding classes and objects in JavaScript
+40:51 Using super keyword to call parent class constructor
+42:46 Calling super constructor is essential in JavaScript inheritance
+47:04 Super keyword is important for inheritance and method invocation in JavaScript
+48:57 Creating a User Class in JavaScript
+53:08 Creating a new class and implementing inheritance in JavaScript.
+55:22 Classes and objects in JavaScript with error handling
+59:08 Understanding classes, objects, inheritance, and error handling in JavaScript
+
+
+
+# lecture11(Project2)🚀✨
+<strong>In this lecture I learn the following points.</strong>
+
+Code & Images : https://github.com/shradha-khapra/Jav...
+
+
+Timstamps
+
+
+
+# lecture12(Callbacks-Promosis-Async-Await In JavaScript)🚀✨
+<strong>In this lecture I learn the following points.</strong>
+
+Notes : https://drive.google.com/drive/folder...
+
+Timstamps
+00:01 Understanding callbacks, promises, and async/await in JavaScript.
+02:05 Explaining synchronous and asynchronous programming in JavaScript
+06:33 Asynchronous programming allows parallel execution and non-blocking behavior.
+08:38 The setTimeout function in JavaScript delays the execution of a function for a specified number of milliseconds.
+12:39 Callbacks are passed as arguments to other functions.
+14:48 Callbacks, Promises, and Async Await in JavaScript.
+19:02 Nested loops and nesting in programming
+20:40 Asynchronous JavaScript programming and data retrieval from the database
+24:23 Understanding asynchronous operations in JavaScript
+26:31 Using callbacks to handle asynchronous operations in JavaScript
+30:15 Understanding Callbacks in JavaScript for asynchronous operations
+32:15 Callback Hell and the introduction of Promises
+36:15 Callbacks, Promises, and Async Await are solutions for asynchronous operations in JavaScript.
+38:15 Promises in JavaScript have three states: pending, fulfilled, and rejected.
+42:18 Understanding promises and async functions in JavaScript
+44:09 Understanding the concept of Promises in JavaScript
+47:34 Using promises for handling asynchronous operations.
+49:30 Understanding callback functions, promises, and async/await in JavaScript.
+53:21 Explaining the use of promises and async functions in JavaScript
+55:32 The working of promises in JavaScript explained
+59:32 Overview of using promises and async await in JavaScript
+1:01:21 Understanding the usage of callbacks, promises, and async await in JavaScript.
+1:05:14 Understanding callbacks, promises, async/await, and promise chaining in JavaScript.
+1:07:18 JavaScript async await simplifies asynchronous programming.
+1:11:25 Using async await for handling asynchronous operations in JavaScript
+1:13:21 Using Async Await for managing asynchronous tasks.
+1:17:20 Using async await for better asynchronous programming
+1:19:08 Understanding IIFE (Immediately Invoked Function Expression)
+1:22:44 Covered important concepts of Asynchronous Programming in JavaScript
+
+
+
+
