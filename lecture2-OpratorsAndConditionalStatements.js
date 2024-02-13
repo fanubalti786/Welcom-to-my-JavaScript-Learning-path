@@ -1,4 +1,4 @@
-// Arithmatic operators(+ - * / % ** unary operators(incremet and decremetn with post and pre))
+// Arithmatic operators(+ - * / % **)
 let a = 5;
 let b = 2;
 console.log("a = ", a , "& b = ", b);
@@ -9,7 +9,7 @@ console.log("a / b = ", a/b);
 console.log("a % b = ", a%b);
 console.log("a ** b = ", a ** b);//5^2
 
-// unary operators()
+// unary operators(incremet and decremetn with post and pre)
 a = a + 1;
 console.log(a);//6
 
@@ -175,7 +175,7 @@ age >= 18? console.log("you are adult") : console.log("you are not adult");
 
 
 // MDN Documentation 
-// its a online documentation of javaScript where we can easily access all code with examples and we'll make our jurney easier
+// its a online documentation of javaScript where we can easily access all code with examples and we can make our jurney easier
 
 
 //PRACTISE QUESTIONS
