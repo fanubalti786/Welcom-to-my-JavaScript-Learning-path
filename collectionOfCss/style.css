@@ -1,0 +1,22 @@
+
+.box 
+    {
+        height: 150px;
+        width: 150px;
+        border: 2px;
+        margin: 5px;
+        background-color: aqua;
+        
+    }
+
+#div2
+    {
+        text-decoration: line-through;
+    }
+
+.newclass
+{
+    color: red;
+    height: 200;
+}
+
