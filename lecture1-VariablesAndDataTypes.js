@@ -25,7 +25,7 @@ console.log(is_Follow + "its data type is boolian");
 console.log("we don't have default values in all data type variables");
 console.log("because its a dynamically typed");
 
-// LET, VAR, CONST DATA TYPRES 
+// LET, VAR, CONST DATA TYPES 
 
 //var
 var age = 10;
@@ -39,7 +39,7 @@ console.log(cnic + " we used let for data type");
 
 // let cnic = 45877984958; // we cant change like that in let variable so its provides read ability good against var
 
-const rollno = 38;// we can only inilize this variable when we declare other wise it gave errore
+const rollno = 38;// we can only initialize at this point when we declare other wise it gave errore
 console.log(rollno + " data type is constant we cant chage this variable value its a fix one");
 //rollno = 44;  we cant chage this variable value its a fix one
 
@@ -63,7 +63,7 @@ console.log(hello + " this age value will show undefined value when its run")
 //use of typeof
 
 age = 29;
-typeof age // typeof this keyword is used for identify variable data type 
+console.log(typeof age); // typeof this keyword is used for identify variable data type 
 
 // we have two types of variable primitive and non primitive
 
@@ -139,6 +139,9 @@ console.log(profile.userName + " i changed value");
 
 console.log(typeof profile["userName"]);
 console.log(typeof profile["isFollow"]);
+
+
+
 
 
 
