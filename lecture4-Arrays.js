@@ -1,4 +1,4 @@
-//ARRAYS: COLLECTION OF SAME ITEM MEANS SAME DATA TYPES
+//ARRAYS: COLLECTION OF SAME ITEM MEANS SAME DATA TYPES 
 // FOR EXAMPLE BASIC ARRAY:
 let heroes = ["irfan", "mumtaz", "sohail", "arif"];
 console.log(heroes);
@@ -201,16 +201,16 @@ console.log(companies);
 console.log(del_val);
 
 // according to splice
-// companies.splice(1,1);
+// companies.splice(0,1);
 // console.log(companies);
 
 // Ans b) 
-companies.splice(1,1,"Ola");
+companies.splice(2,1,"Ola");
 console.log(companies);
 
 
 // Ans c) 
-companies.splice(5,0,"Amazone");
+companies.splice(6,0,"Amazone");
 console.log(companies);
 
 // companies.push("Amazone");
