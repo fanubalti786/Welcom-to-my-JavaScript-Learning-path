@@ -82,7 +82,7 @@ do
 
 
 // for of loop: these type of loops are used for apply on some special type of data
-             //and in this loop we use only string and array variable
+//and in this loop we use only string and array variable
 
 let str = "ApnaCollege";
 for(let i of str)
@@ -153,7 +153,7 @@ for(let i = 1; i<=100; i++)
 
 
 // Qno2: creat a game where you start with any random game number.
-        // Ask the user to keep guessing the game number until the user inters correct value
+// Ask the user to keep guessing the game number until the user inters correct value
 
 
 // let gameNumber = 20;
@@ -164,7 +164,7 @@ for(let i = 1; i<=100; i++)
 //     attempts++;
 //     if(attempts<3)
 //     {
-//         userNumber = prompt("your guess number is wrong plz try again you have been already attempt ", attempts);
+//         userNumber = prompt(`your guess number is wrong plz try again you have been already attempt ${attempts}`);
 
 //     }
 
@@ -177,7 +177,7 @@ for(let i = 1; i<=100; i++)
 // }
 
 // console.log(Name.length);
-// if(gameNumber==userNumber)
+// if(gameNumber===userNumber)
 // {
 //     console.log("congradualation you win the game");
 // }
@@ -284,7 +284,7 @@ console.log(str11.replace("lo", "p")); //first matching characters execute
 // g) str.charA(idx)
 
 let str12 = "ILoveJS";
-console.log(str12.charAt(0));//output is I: its a long foarm and its a function
+console.log(str12.charAt(0));//output is I: its a long foarm and its a method
 console.log(str12[0]);//output is I: its a short foarm and its property
 str12[0]="S";
 console.log(str12[0]);//output is I: bc we can't change original string we will make new string for change 
