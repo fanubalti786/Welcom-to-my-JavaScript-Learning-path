@@ -1,7 +1,7 @@
 // Functions in JS
 //Block of code that performs a specific task, can be invoked whenever needed
 
-//for example we have already some function which is built function which we learned in past lecturs
+//for example we have already some function which is built in function which we learned in past lecturs
 
 "abc".toUpperCase(); // it is also a function when we need for this we can perform again and again 
 
@@ -46,7 +46,7 @@ console.log(s);
 
 // Arrow functions introduce in modern javaScript
 
-let arrowfunction= () => { //arrowfunction is a variable and we can store function in variable 
+let arrowfunction= () => { //arrowfunction use with variable and we can store function in variable 
     console.log("arrowfunction");
 }
 
@@ -97,7 +97,7 @@ console.log(vowel);
 
 // create arrow function for same task
 
-const NOofvowel = (arr) => 
+const NOofvowel = (str) => 
 {
 
     let count = 0;
@@ -169,7 +169,7 @@ arr2.forEach((value, index, arr) =>{// we can pass three inputs with same sequen
 let arr4 = [3,8,4,1];
 
 arr4.forEach((value) => {
-    console.log(value * value); // num**2;
+    console.log(value * value); // value**2;
 });
 
 
@@ -295,6 +295,8 @@ let factorial = _rray.reduce((prev, curr) =>
 });
 
 console.log(factorial);
+
+
 
 
 
