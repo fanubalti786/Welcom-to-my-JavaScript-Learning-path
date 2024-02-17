@@ -177,7 +177,7 @@ for(let i = 1; i<=100; i++)
 // }
 
 // console.log(Name.length);
-// if(gameNumber===userNumber)
+// if(gameNumber==userNumber)
 // {
 //     console.log("congradualation you win the game");
 // }
