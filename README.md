@@ -106,34 +106,15 @@ Timstamps
 Notes available at :  https://www.apnacollege.in/notes
 
 TimeStamps
-00:01 Chapter six covers the important concept of DOM (Document Object Model).
-02:20 Building a house analogy for understanding the Document Object Model (DOM)
-07:33 Introduction to DOM concepts
-10:12 The style tag is used to connect CSS to an HTML file.
-14:21 Adding styling and JavaScript code to the webpage
-16:45 Understanding the elements and inspection process in the DOM
-21:03 The DOM helps with organizing and caching web content for better loading time.
-22:57 The window object in JavaScript is a global object with various properties and methods.
-27:01 Introduction to Document Object Model (DOM)
-28:56 DOM is the Document Object Model, representing the structure of an HTML page.
-33:13 Introduction to DOM and accessing HTML tags in JavaScript.
-34:59 The Document Object Model (DOM) allows us to manipulate the HTML structure of a webpage.
-38:42 Adding scripts in index.htm and accessing elements using IDs
-40:21 Accessing elements using ID and Class name
-44:01 Get elements by class name returns an HTML collection, similar to an array.
-46:03 DOM collections can be accessed using various methods and properties
-49:43 Query selector is used to select elements based on ID, class or tag
-51:32 Accessing and manipulating elements using DOM
-55:24 Understanding the relationship between parent, child, and siblings in the Document Object Model (DOM)
-57:12 Understanding the DOM Tree Structure
-1:00:53 Query and select elements using the DOM
-1:02:35 Self-learning mindset as a programmer
-1:06:34 Using innerHTML to modify the content of an element
-1:08:40 The DOM allows us to access and manipulate elements in a web page.
-1:12:37 Changing the inner text of an h2 element in the DOM using JavaScript
-1:14:33 Basic concepts of JavaScript: concatenation, accessing HTML elements, changing inner text property
-1:18:33 Changing the properties of DOM elements
-1:20:26 Accessing and manipulating DOM elements using JavaScript.
+00:48------Start
+04:11-----Starter Code
+16:45----Understanding INSPECT WINDOW
+20:18-----Starter code
+22:00-----Window Object
+25:18------DOM (DOCUMENT OBJECT MODEL)
+38:06------DOM Manipulation
+51:55----DOM Manipulation PROPERTIES
+01:11:19----Practice set
 
 
 
