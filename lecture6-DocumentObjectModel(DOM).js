@@ -33,7 +33,7 @@ let byid = document.getElementById("div2");
 console.log(byid);
 
 let byclass = document.getElementByClassName("box");
-console.log(byclasses);
+console.log(byclass);
 
 let byclasses = document.getElementsByClassName("box");
 console.log(byclasses);
