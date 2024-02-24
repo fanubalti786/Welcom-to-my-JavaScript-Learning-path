@@ -37,7 +37,7 @@ console.log(byclass);
 
 let byclasses = document.getElementsByClassName("box");
 console.log(byclasses);
-
+ 
 
 let byname = document.getElementByTagName("h2");
 console.log(byname);
@@ -104,15 +104,15 @@ console.log(Body.children[1]);
 
 
  let Childs1 = document.querySelectorAll(".box");
- console.log(Childs[0].children[0].children[0].innerText);
+ console.log(Childs1[0].children[0].children[0].innerText);
 
 let Childs2 = document.querySelector(".box").children[0].children[0].innerText;
- console.log(Childs);
+ console.log(Childs2);
 
 let Childs3 = document.querySelectorAll(".box").children[0].children[0].innerText;
 // Note its Not possible we can't find all classes children and its properties also
 // we can execute all classes separately
-console.log(Childs);// no value return
+console.log(Childs3);// no value return
 
 
 
