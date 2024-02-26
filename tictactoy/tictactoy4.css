@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #548687;
+    text-align: center;
+}
+
+h1{
+    font-size: 35px;
+    margin-top: 2px;
+}
+
+
+.container{
+    /* background-color: #ff0000; */
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    /* background-color: green; */
+    height: 80vmin;
+    width: 80vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+    margin-top: -8px;
+}
+
+.box{
+    /* background-color: pink; */
+    height: 17vmin;
+    width: 17vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    font-size: 8vmin;
+    color: #b0413e;
+    background-color: #ffffc7;
+    margin: none;
+    
+    
+
+}
+/* 
+main{
+    
+} */
+
+.box:hover
+{
+    cursor: pointer;
+    background-color: #7ca5a6;
+    border: 2px solid #234e4f;
+}
+.new-btn2:hover{
+    cursor: pointer;
+    background-color: #022627;
+    /* border: 2px solid #234e4f; */
+}
+
+#reset-btn:hover{
+   cursor: pointer;
+   background-color: #0c4c4f;
+    /* border: 1px solid #234e4f; */
+    color: #fff;
+}
+
+#reset-btn{
+    padding: 9px;
+    font-size: 1rem;
+    background-color: #043d3e;
+    color: black;
+    border-radius: 1rem;
+    border: none;
+    /* margin-top: -40px; */
+    margin-top: -4px;
+}
+
+.msg-container{
+
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.msg{
+    font-size: 8vmin;
+    color: #ffffc7;
+    margin-bottom: 20px;
+    font-size: 60px;
+}
+
+/* .new-btn1{
+    padding: 1rem;
+    font-size: 1.4rem;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+    background-color: #660000;
+} */
+
+.new-btn2{
+    padding: 1rem;
+    font-size: 1.4rem;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+    background-color: #063539;
+}
+
+.hide{
+    /* visibility: hidden; */
+    display: none;
+}
+
+.condidates{
+    color: rgb(113, 26, 26);
+    font-size: 12px;
+    margin-top: -3px;
+}
+
+.sign1{
+    font-size: 24px;
+}
+
+.sign2{
+    color: black;
+    font-size: 23px;
+}
+
+
+.hello{
+    font-size: 22px;
+}
+
