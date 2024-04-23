@@ -13,15 +13,20 @@ console.log("a ** b = ", a ** b);//5^2
 a = a + 1;
 console.log(a);//6
 
-console.log(a++);// the print value of a is 5 becuase its a post increment 
+console.log(a++);// the print value of a is 6 becuase its a post increment 
+console.log(a);
 a = a - 1;
-console.log(a);//4
+console.log(a);//6
 
 a = ++a;
-console.log(a);// the print value of a is 6 becuase its a pre increment
+console.log(a);// the print value of a is 7 becuase its a pre increment
 
-a = a--;
-console.log(a);// the print value of a is 5 becuase its a post degrement
+a = a++; // value of a is again 7 bc a++ first do assign so thats why a value is agian 7
+console.log(a);// the print value of a is 7 becuase post increment just assigning
+
+a++; // this senario is total different according to (a = a+++) this bc its not diectly assingn
+// in this process increment is necessarey
+console.log(a); // the print value of a is 8
 
 a = --a;
 console.log(a);// the print value of a is 4 becuase its a pre degrement
@@ -233,6 +238,8 @@ else
 }
 
 //jjjj
+
+
 
 
 
