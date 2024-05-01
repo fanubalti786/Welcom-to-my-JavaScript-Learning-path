@@ -91,7 +91,7 @@ for(let i of str)
 }
 
 
-// we can fined length of str using for of loop
+// we can find length of str using for of loop
 let char =0;
 for(let i of str)
 {
@@ -156,31 +156,37 @@ for(let i = 1; i<=100; i++)
 // Ask the user to keep guessing the game number until the user inters correct value
 
 
-// let gameNumber = 20;
-// let userNumber = prompt("Gues your game number from 1 to 20 you have only three attempts");
-// let attempts = 0;
-// while(gameNumber!=userNumber)
-// {
-//     attempts++;
-//     if(attempts<3)
-//     {
-//         userNumber = prompt(`your guess number is wrong plz try again you have been already attempt ${attempts}`);
-
-//     }
-
-//     else
-//     {
-//         console.log("you loss the game");
-//         break;
-//     }
+let gameNumber = 20;
+let attempts = 0;
+let userNumber = prompt("Gues your game number from 1 to 20 you have only three attempts");
+attempts += 1;
+while(gameNumber!=userNumber)
+{
     
-// }
+    if(attempts<3)
+    {
+        userNumber = prompt(`your guess number is wrong plz try again you have been already attempt ${attempts}`);
+        if(attempts==2)
+        {
+            alert("Alert you have only one chance");
+        }
+        attempts++;
+           
+    }
 
-// console.log(Name.length);
-// if(gameNumber==userNumber)
-// {
-//     console.log("congradualation you win the game");
-// }
+    else
+    {
+        console.log("you loss the game");
+        break;
+    }
+    
+}
+
+
+if(gameNumber==userNumber)
+{
+    console.log("congradualation you win the game");
+}
 
 
 //String in javaScript: string is a sequence of characters used to present text
@@ -200,7 +206,7 @@ console.log(Name.length);
 
 let str2 = "ApnaCollege";
 
-console.log(str[0]);// A
+console.log(str2[0]);// A
 
 
 // 4. Template Literals: A way to have embeded expressions in string so this is a template literal
