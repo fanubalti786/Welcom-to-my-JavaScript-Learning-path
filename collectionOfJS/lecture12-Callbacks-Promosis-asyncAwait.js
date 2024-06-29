@@ -124,6 +124,35 @@ let promis = new promis((resolve,reject) =>
 
 
 
+   
+
+   // Basics of promis with then and catch method 
+const getpromis = () =>
+   {
+      return new promis((res,rej) =>
+         {
+            console.log("i am a promiss");
+            // resolve("Success");
+            reject("Network Erroe");
+         })
+   }
+   
+   
+   let promiss = getpromis();
+   promiss.then((res) => 
+   {
+      console.log('promis fullfilled', res);
+   
+   });
+   
+   promiss.catch((rej) => 
+   {
+      console.log('promis fullfilled', rej);
+   
+   });
+
+
+
 
 
 
