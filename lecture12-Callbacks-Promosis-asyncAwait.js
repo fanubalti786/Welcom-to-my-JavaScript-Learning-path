@@ -109,15 +109,18 @@ getdata(1,() =>{
 })
 
 
-let promis = new promis(() =>
-{
-   console.log("promis run successfully");
-})
+//Simple promis creation 
+let promis = new promis((resolve,reject) =>
+   {
+      console.log("i am a promis");
+         resolve(success);
+         reject(Error);
 
-promis();
-
-
-console.log('hello');
+   })
+   // console.log(promis());// don't need to call its a automatic calling process
+   consol.log(promis); 
+   
+   console.log('hello');
 
 
 
