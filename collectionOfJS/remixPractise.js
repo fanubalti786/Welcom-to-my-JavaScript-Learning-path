@@ -488,47 +488,297 @@
 
 
 
-function getdata(dataID, getNextData)
-{
-   setTimeout(() =>{
-      console.log("data", dataID);
-      if(getNextData)
-         {
-            getNextData();
-         }
+// function getdata(dataID, getNextData)
+// {
+//    setTimeout(() =>{
+//       console.log("data", dataID);
+//       if(getNextData)
+//          {
+//             getNextData();
+//          }
 
-   },2000);
+//    },2000);
+// }
+
+
+
+// getdata(1,() =>{
+//    console.log("getting data 2 ....");
+//    getdata(2, () =>{
+//       console.log("getting data 3 ....");
+//       getdata(3, () =>{
+//          console.log("getting data 4 ....");
+//          getdata(4)
+//       })
+//    })
+// })
+
+
+//Simple promis creation 
+let promis = new promis((resolve,reject) =>
+   {
+      console.log("i am a promis");
+         resolve(success);
+         reject(Error);
+
+   })
+   // console.log(promis());// don't need to call its a automatic calling process
+   consol.log(promis); 
+   
+   console.log('hello');
+
+
+// Basics of promis with then and catch method 
+const getpromis = () =>
+{
+   return new promis((res,rej) =>
+      {
+         console.log("i am a promiss");
+         // resolve("Success");
+         reject("Network Erroe");
+      })
+}
+
+
+let promiss = getpromis();
+promiss.then((res) => 
+{
+   console.log('promis fullfilled', res);
+
+});
+
+promiss.catch((rej) => 
+{
+   console.log('promis fullfilled', rej);
+
+});
+
+
+
+
+
+
+// Problem will be occure if we call multiple promisses they execute at same time
+
+function asyncFuntion() {
+   return new promis ((resolve,reject)=>
+   {
+      setTimeout(()=> 
+      {
+         console.log("data");
+         resolve("Successfull");
+         
+      },4000)
+   })
+}
+
+function asyncFunction1() {
+   return new promis ((resolve,reject)=>
+   {
+      setTimeout(()=> 
+      {
+         console.log("data 1");
+         
+      },2000)
+   })
 }
 
 
 
-getdata(1,() =>{
-   console.log("getting data 2 ....");
-   getdata(2, () =>{
-      console.log("getting data 3 ....");
-      getdata(3, () =>{
-         console.log("getting data 4 ....");
-         getdata(4)
-      })
+function asyncFunction2() {
+   return new promis ((resolve,reject)=>
+   {
+      setTimeout(()=> 
+      {
+         console.log("data 2");
+         
+      },2000)
    })
+}
+
+
+
+
+let promis1 = asyncFunction();
+console.log("fetching data 1 ....");
+promis.then((res) =>
+{
+   console.log(res);
+});
+
+
+
+let promis2 = asyncFunction1();
+console.log("fetching data 1 ....");
+promis.then((res) =>
+{
+   console.log(res);
+});
+
+
+let promis3 = asyncFunction1();
+console.log("fetching data 1 ....");
+promis.then((res) =>
+{
+   console.log(res);
+});
+
+// Problem will be occure when we execute multiple promis which means all function 
+// provide us feedback at a same time but we don't want this we just want 
+// these function execute orderly one by one because we want when we recieve 1st
+// function feedback and then we check its a true then we move next function if 
+// its fall or rejected promiss then don't need to go another function and execute
+// them all for example login function inwich we check first username if its true then 
+// we move passoword function otherwise no nead to go for check the password for 
+//  this reason we use promis chain which resolve our this problem
+
+
+
+// promis chain is better than as compare to callback 
+
+let p1 = asyncFunction();
+console.log("fetching data 1 ....");
+promis.then((res) =>
+{
+   console.log(res);
+   console.log("fetching data 2 ....");
+   let p2 = asyncFunction1();
+   promis5.then((res) =>
+   {
+      console.log(res);
+      console.log("fetching data 3 ....");
+      let p3 = asyncFunction2();
+
+   });
+
+});
+
+// we can more simplify promis chain
+
+console.log("fetching data 1 ....");
+asyncFunction().then((res) =>
+{
+   console.log("fetching data 2 ....");
+   asyncFunction1.then((res) =>
+   {
+      console.log("fetching data 3 ....");
+      asyncFunction2().then( (res) =>
+      {
+         console.log(res);
+      })
+
+   });
+
+});
+
+
+// we apply promiss chain on callback hell code which we resolve first before promis chain
+
+
+
+function getdata(dataID, getNextData)
+{
+   return new promis((res,rej) =>
+   {
+      setTimeout(() =>{
+         console.log("data", dataID);
+         resolve("Success");
+         if(getNextData)
+            {
+               getNextData();
+            }
+   
+      },2000);
+   })
+}
+
+
+// console.log("fetching data 1 ...");
+// getdata(1).then((res) =>
+// {
+//    console.log("fetching data 2 ...");
+//    getdata(2).then((res) =>
+//    {
+//       console.log("fetching data 3 ...");
+//       getdata(3).then((res) => 
+//       {
+//          consol.log(res);
+//       })
+//    });
+
+
+// });
+
+
+
+// we can do more simplify of our promis chain
+getdata(1)
+.then((res) =>
+{
+   return getdata(2);
 })
+.then((res) => 
+{
+   return getdata(3);
+})
+.then((res) => 
+{
+   console.log(res);
+});
 
 
 
 
+// Async Await 
+// Async Await is a best way for calling api according to callback and promises
+
+function getdata(dataID, getNextData)
+{
+   return new promis((res,rej) =>
+   {
+      setTimeout(() =>{
+         console.log("data", dataID);
+         resolve("Success");
+         if(getNextData)
+            {
+               getNextData();
+            }
+   
+      },2000);
+   })
+}
+
+
+async function getapi() 
+{
+   await getdata(1);
+   console.log("fetching data 1 ...");
+   await getdata(2);
+   console.log("fetching data 2 ...");
+   await getdata(3);
+   console.log("fetching data 3 ...");
+   await getdata(4);
+   console.log("fetching data 4 ...");
+   
+}
 
 
 
+// IIFE Function
+// it is used for function execution without call 
 
-
-
-
-
-
-
-
-
-
+(async function getapi() 
+{
+   await getdata(1);
+   console.log("fetching data 1 ...");
+   await getdata(2);
+   console.log("fetching data 2 ...");
+   await getdata(3);
+   console.log("fetching data 3 ...");
+   await getdata(4);
+   console.log("fetching data 4 ...");
+   
+})();
 
 
 
