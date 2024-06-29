@@ -41,7 +41,7 @@ function sum(x,y)
 }
 
 let  val = sum(8,9);
-console.log(s);
+console.log(val);
 
 
 // Arrow functions introduce in modern javaScript
@@ -102,7 +102,7 @@ const NOofvowel = (str) =>
 
     let count = 0;
 
-    for(let char of arr){
+    for(let char of str){
 
         if(char === "a" || char ==="e" || char ==="i" || char ==="o" || char ==="u")
         {

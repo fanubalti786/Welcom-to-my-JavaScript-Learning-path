@@ -24,21 +24,21 @@ console.log(a);// the print value of a is 7 becuase its a pre increment
 a = a++; // value of a is again 7 bc a++ first do assign so thats why a value is agian 7
 console.log(a);// the print value of a is 7 becuase post increment just assigning
 
-a++; // this senario is total different according to (a = a+++) this bc its not diectly assingn
+a++; // this senario is total different according to (a = a++) this bc its not diectly assingn
 // in this process increment is necessarey
 console.log(a); // the print value of a is 8
 
 a = --a;
-console.log(a);// the print value of a is 4 becuase its a pre degrement
+console.log(a);// the print value of a is 7 becuase its a pre degrement
 
 a = a * 1;
-console.log(a);// 5
+console.log(a);// 7
 
 a = a / 5;
-console.log(a);// 1
+console.log(a);// 1.4
 
 a = a % 2;
-console.log(a);// 
+console.log(a);// 1.4
 
 
 // Assingment Operators(= += -= *= %= **=)
