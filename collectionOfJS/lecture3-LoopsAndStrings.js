@@ -206,7 +206,7 @@ console.log(Name.length);
 
 let str2 = "ApnaCollege";
 
-console.log(str2+[0]);// A
+console.log(str2[0]);// A
 
 
 // 4. Template Literals: A way to have embeded expressions in string so this is a template literal
