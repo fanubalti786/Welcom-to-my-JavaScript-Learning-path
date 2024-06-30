@@ -237,3 +237,24 @@ promis.then((res) =>
 
 
 
+
+// promis chain is better than as compare to callback 
+
+let p1 = asyncFunction();
+console.log("fetching data 1 ....");
+promis.then((res) =>
+{
+   console.log(res);
+   console.log("fetching data 2 ....");
+   let p2 = asyncFunction1();
+   promis5.then((res) =>
+   {
+      console.log(res);
+      console.log("fetching data 3 ....");
+      let p3 = asyncFunction2();
+
+   });
+
+});
+
+
