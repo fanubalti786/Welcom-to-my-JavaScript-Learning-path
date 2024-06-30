@@ -202,7 +202,7 @@ function asyncFunction2() {
 
 let promis1 = asyncFunction();
 console.log("fetching data 1 ....");
-promis.then((res) =>
+promis1.then((res) =>
 {
    console.log(res);
 });
@@ -211,7 +211,7 @@ promis.then((res) =>
 
 let promis2 = asyncFunction1();
 console.log("fetching data 1 ....");
-promis.then((res) =>
+promis2.then((res) =>
 {
    console.log(res);
 });
@@ -219,7 +219,7 @@ promis.then((res) =>
 
 let promis3 = asyncFunction1();
 console.log("fetching data 1 ....");
-promis.then((res) =>
+promis3.then((res) =>
 {
    console.log(res);
 });
@@ -242,12 +242,12 @@ promis.then((res) =>
 
 let p1 = asyncFunction();
 console.log("fetching data 1 ....");
-promis.then((res) =>
+p1.then((res) =>
 {
    console.log(res);
    console.log("fetching data 2 ....");
    let p2 = asyncFunction1();
-   promis5.then((res) =>
+   p2.then((res) =>
    {
       console.log(res);
       console.log("fetching data 3 ....");
@@ -274,6 +274,46 @@ asyncFunction().then((res) =>
       })
 
    });
+
+});
+
+
+
+
+// we apply promiss chain on callback hell code which we resolve first before promis chain
+
+
+
+function getdata(dataID, getNextData)
+{
+   return new promis((res,rej) =>
+   {
+      setTimeout(() =>{
+         console.log("data", dataID);
+         resolve("Success");
+         // if(getNextData)
+         //    {
+         //       getNextData();
+         //    }
+   
+      },2000);
+   })
+}
+
+
+console.log("fetching data 1 ...");
+getdata(1).then((res) =>
+{
+   console.log("fetching data 2 ...");
+   getdata(2).then((res) =>
+   {
+      console.log("fetching data 3 ...");
+      getdata(3).then((res) => 
+      {
+         consol.log(res);
+      })
+   });
+
 
 });
 
