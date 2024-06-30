@@ -157,3 +157,83 @@ const getpromis = () =>
 
 
 
+
+   
+// Problem will be occure if we call multiple promisses they execute at same time
+
+function asyncFuntion() {
+   return new promis ((resolve,reject)=>
+   {
+      setTimeout(()=> 
+      {
+         console.log("data");
+         resolve("Successfull");
+         
+      },4000)
+   })
+}
+
+function asyncFunction1() {
+   return new promis ((resolve,reject)=>
+   {
+      setTimeout(()=> 
+      {
+         console.log("data 1");
+         
+      },2000)
+   })
+}
+
+
+
+function asyncFunction2() {
+   return new promis ((resolve,reject)=>
+   {
+      setTimeout(()=> 
+      {
+         console.log("data 2");
+         
+      },2000)
+   })
+}
+
+
+
+
+let promis1 = asyncFunction();
+console.log("fetching data 1 ....");
+promis.then((res) =>
+{
+   console.log(res);
+});
+
+
+
+let promis2 = asyncFunction1();
+console.log("fetching data 1 ....");
+promis.then((res) =>
+{
+   console.log(res);
+});
+
+
+let promis3 = asyncFunction1();
+console.log("fetching data 1 ....");
+promis.then((res) =>
+{
+   console.log(res);
+});
+
+// Problem will be occure when we execute multiple promis which means all function 
+// provide us feedback at a same time but we don't want this we just want 
+// these function execute orderly one by one because we want when we recieve 1st
+// function feedback and then we check its a true then we move next function if 
+// its fall or rejected promiss then don't need to go another function and execute
+// them all for example login function inwich we check first username if its true then 
+// we move passoword function otherwise no nead to go for check the password for 
+//  this reason we use promis chain which resolve our this problem
+
+
+
+
+
