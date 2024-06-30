@@ -110,15 +110,15 @@ getdata(1,() =>{
 
 
 //Simple promis creation 
-let promis = new promis((resolve,reject) =>
+let promis = new Promis((resolve,reject) =>
    {
       console.log("i am a promis");
-         resolve(success);
-         reject(Error);
+         resolve("success");
+         // reject(Error);
 
    })
    // console.log(promis());// don't need to call its a automatic calling process
-   consol.log(promis); 
+   console.log(promis); 
    
    console.log('hello');
 
@@ -179,6 +179,7 @@ function asyncFunction1() {
       setTimeout(()=> 
       {
          console.log("data 1");
+         resolve("Success");
          
       },2000)
    })
@@ -192,6 +193,7 @@ function asyncFunction2() {
       setTimeout(()=> 
       {
          console.log("data 2");
+         resolve("Success");
          
       },2000)
    })
@@ -286,11 +288,11 @@ asyncFunction().then((res) =>
 
 function getdata(dataID, getNextData)
 {
-   return new promis((res,rej) =>
+   return new Promise((res,rej) =>
    {
       setTimeout(() =>{
          console.log("data", dataID);
-         resolve("Success");
+         res("Success");
          // if(getNextData)
          //    {
          //       getNextData();
@@ -310,7 +312,7 @@ getdata(1).then((res) =>
       console.log("fetching data 3 ...");
       getdata(3).then((res) => 
       {
-         consol.log(res);
+         console.log(res);
       })
    });
 
@@ -318,3 +320,17 @@ getdata(1).then((res) =>
 });
 
 
+// we can do more simplify of our promis chain
+getdata(1)
+.then((res) =>
+{
+   return getdata(2);
+})
+.then((res) => 
+{
+   return getdata(3);
+})
+.then((res) => 
+{
+   console.log(res);
+});
