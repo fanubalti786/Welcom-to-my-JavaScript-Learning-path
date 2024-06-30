@@ -258,3 +258,23 @@ promis.then((res) =>
 });
 
 
+
+// we can more simplify promis chain
+
+console.log("fetching data 1 ....");
+asyncFunction().then((res) =>
+{
+   console.log("fetching data 2 ....");
+   asyncFunction1.then((res) =>
+   {
+      console.log("fetching data 3 ....");
+      asyncFunction2().then( (res) =>
+      {
+         console.log(res);
+      })
+
+   });
+
+});
+
+
