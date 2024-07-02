@@ -372,3 +372,22 @@ async function getapi()
 
 
 getapi();
+
+
+
+
+// IIFE Function
+// it is used for function execution without call 
+
+(async function getapi() 
+{
+   await getdata(1);
+   console.log("fetching data 1 ...");
+   await getdata(2);
+   console.log("fetching data 2 ...");
+   await getdata(3);
+   console.log("fetching data 3 ...");
+   await getdata(4);
+   console.log("fetching data 4 ...");
+   
+})();
