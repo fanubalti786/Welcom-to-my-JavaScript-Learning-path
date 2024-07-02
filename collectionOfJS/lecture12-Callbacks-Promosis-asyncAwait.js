@@ -334,3 +334,41 @@ getdata(1)
 {
    console.log(res);
 });
+
+
+
+// Async Await 
+// Async Await is a best way for calling api according to callback and promises
+
+function getdata(dataID, getNextData)
+{
+   return new Promise((res,rej) =>
+   {
+      setTimeout(() =>{
+         console.log("data");
+         res("Success");
+         // if(getNextData)
+         //    {
+         //       getNextData();
+         //    }
+   
+      },2000);
+   })
+}
+
+
+async function getapi() 
+{
+   await getdata(1);
+   console.log("fetching data 1 ...");
+   await getdata(2);
+   console.log("fetching data 2 ...");
+   await getdata(3);
+   console.log("fetching data 3 ...");
+   await getdata(4);
+   console.log("fetching data 4 ...");
+   
+}
+
+
+getapi();
