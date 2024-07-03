@@ -1,150 +1,150 @@
-// // console.log("hello");
-// // // alert("something gonna wrong");
+// console.log("hello");
+// alert("something gonna wrong");
 
-// // age = 88;
-// // color = 33;
+// age = 88;
+// color = 33;
 
-// // console.log("22 " + "its your age");
+// console.log("22 " + "its your age");
 
-// // Name = null;
-// // cnic = undefined;
+// Name = null;
+// cnic = undefined;
 
-// // console.log(color);
+// console.log(color);
 
-// // const student = {
-// //     Name : "irfan",
-// //     rollno : "333",
-// // };
+// const student = {
+//     Name : "irfan",
+//     rollno : "333",
+// };
 
-// // console.log(typeof student.rollno);
-// // console.log(typeof age);
-// // console.log(typeof color);
-// // console.log(typeof student["Name"]);
-
-
-// // console.log(age , color);
+// console.log(typeof student.rollno);
+// console.log(typeof age);
+// console.log(typeof color);
+// console.log(typeof student["Name"]);
 
 
-// // let isFollow = true? "you follow it" : "you not follow it";
-
-// // console.log(isFollow);
+// console.log(age , color);
 
 
-// // // console.log("calculate your average marks");
-// // // let subjects = prompt("how many subjects you have");
-// // // // const marks = new Array(subjects).fill(0);
-// // // let marks
-// // // let sum = 0;
-// // // console.log("inter your subject marks");
-// // // for(a=0; a<5; a++)
-// // // {
-// // //     marks[a] = prompt();
-// // //     sum += marks[a];
+// let isFollow = true? "you follow it" : "you not follow it";
 
-// // // }
+// console.log(isFollow);
 
-// // // let average = sum / subjects;
 
-// // // console.log("your average marks is : ", average);
+// console.log("calculate your average marks");
+// let subjects = prompt("how many subjects you have");
+// // const marks = new Array(subjects).fill(0);
+// let marks
+// let sum = 0;
+// console.log("inter your subject marks");
+// for(a=0; a<5; a++)
+// {
+//     marks[a] = prompt();
+//     sum += marks[a];
+
+// }
+
+// let average = sum / subjects;
+
+// console.log("your average marks is : ", average);
 
 
 // let number = "3857493";
 // console.log(number.slice(0,6));
-// // console.log("hello" + number + number);
+// console.log("hello" + number + number);
 
-// // let str = "ApnaCollege";
-// // for(let i of str)
-// // {
-// //     console.log("i = ",i);
-// // }
-// // let hello = undefined;
-// // hello++;
-// // console.log(hello);
-// // let charr=0;
-// // for(let i of number)
-// // {
-// //     console.log("i = :", i);
-// //     charr++;
-// // }
+// let str = "ApnaCollege";
+// for(let i of str)
+// {
+//     console.log("i = ",i);
+// }
+// let hello = undefined;
+// hello++;
+// console.log(hello);
+// let charr=0;
+// for(let i of number)
+// {
+//     console.log("i = :", i);
+//     charr++;
+// }
 
-// // console.log(charr);
-// // let arr = [1,3,4,7];
+// console.log(charr);
+// let arr = [1,3,4,7];
 
-// // for(let index of arr)
-// // {
-// //     console.log(index);
-// // }
-
-
-// // let student1 = {
-// //     Name : "irfan",
-// //     roll : 333,
-// //     age : 22,
-// //     cgpa : 7.5,
-// //     isPass : true
-// // };
-
-// // for(let key in student1)
-// // {
-// //     console.log(key, "= ", student1[key]);
-// // }
+// for(let index of arr)
+// {
+//     console.log(index);
+// }
 
 
-// // for(let i = 1; i<=100; i++)
-// // {
-// //     if(i % 2 === 0)
-// //     {
-// //         console.log(i);
-// //     }
+// let student1 = {
+//     Name : "irfan",
+//     roll : 333,
+//     age : 22,
+//     cgpa : 7.5,
+//     isPass : true
+// };
 
-// // }
-
-// // let m = 3;
-
-// // console.log(m++);
-// // console.log(m);
-
-
-// // let less = "string";
-// // console.log(less.replace("s", "subs"));
-// // console.log(less);
+// for(let key in student1)
+// {
+//     console.log(key, "= ", student1[key]);
+// }
 
 
-// // // let winningNumber = 20;
-// // // let userGues = prompt("Gues your game number from 1 to 20 you have only three attempts");
-// // // let attempts = 0;
-// // // while(winningNumber!=userGues)
-// // // {
-// // //     attempts++;
-// // //     if(attempts<3)
-// // //     {
-// // //         userGues = prompt(`your guess number is wrong plz try again you have been already attempt ${attempts}`);
+// for(let i = 1; i<=100; i++)
+// {
+//     if(i % 2 === 0)
+//     {
+//         console.log(i);
+//     }
 
-// // //     }
+// }
 
-// // //     else
-// // //     {
-// // //         console.log("you loss the game");
-// // //         break;
-// // //     }
+// let m = 3;
+
+// console.log(m++);
+// console.log(m);
+
+
+// let less = "string";
+// console.log(less.replace("s", "subs"));
+// console.log(less);
+
+
+// let winningNumber = 20;
+// let userGues = prompt("Gues your game number from 1 to 20 you have only three attempts");
+// let attempts = 0;
+// while(winningNumber!=userGues)
+// {
+//     attempts++;
+//     if(attempts<3)
+//     {
+//         userGues = prompt(`your guess number is wrong plz try again you have been already attempt ${attempts}`);
+
+//     }
+
+//     else
+//     {
+//         console.log("you loss the game");
+//         break;
+//     }
     
-// // // }
+// }
 
-// // // if(winningNumber == userGues)
-// // // console.log("congradulation you win the game");
+// if(winningNumber == userGues)
+// console.log("congradulation you win the game");
 
 
-// // let arr3 = [3,9,"irfan",8,2];
-// // console.log(arr3);
+// let arr3 = [3,9,"irfan",8,2];
+// console.log(arr3);
 
-// // let arr4 = [33,99,44,88,77];
-// // let sume = 0;
-// // for(let index of arr4)
-// // {
-// //     sume += index;
-// // }
+// let arr4 = [33,99,44,88,77];
+// let sume = 0;
+// for(let index of arr4)
+// {
+//     sume += index;
+// }
 
-// // console.log(`your marks average is ${sume / arr4.length}`);
+// console.log(`your marks average is ${sume / arr4.length}`);
 
 
 // let arr = [99,33,88,22,55];
@@ -514,275 +514,382 @@
 // })
 
 
-//Simple promis creation 
-let promis = new promis((resolve,reject) =>
-   {
-      console.log("i am a promis");
-         resolve(success);
-         reject(Error);
+// //Simple promis creation 
+// let promis = new promis((resolve,reject) =>
+//    {
+//       console.log("i am a promis");
+//          resolve(success);
+//          reject(Error);
 
-   })
-   // console.log(promis());// don't need to call its a automatic calling process
-   consol.log(promis); 
+//    })
+//    // console.log(promis());// don't need to call its a automatic calling process
+//    consol.log(promis); 
    
-   console.log('hello');
+//    console.log('hello');
 
 
-// Basics of promis with then and catch method 
-const getpromis = () =>
-{
-   return new promis((res,rej) =>
-      {
-         console.log("i am a promiss");
-         // resolve("Success");
-         reject("Network Erroe");
-      })
-}
+// // Basics of promis with then and catch method 
+// const getpromis = () =>
+// {
+//    return new promis((res,rej) =>
+//       {
+//          console.log("i am a promiss");
+//          // resolve("Success");
+//          reject("Network Erroe");
+//       })
+// }
 
 
-let promiss = getpromis();
-promiss.then((res) => 
-{
-   console.log('promis fullfilled', res);
+// let promiss = getpromis();
+// promiss.then((res) => 
+// {
+//    console.log('promis fullfilled', res);
 
-});
+// });
 
-promiss.catch((rej) => 
-{
-   console.log('promis fullfilled', rej);
+// promiss.catch((rej) => 
+// {
+//    console.log('promis fullfilled', rej);
 
-});
-
-
-
+// });
 
 
 
-// Problem will be occure if we call multiple promisses they execute at same time
 
-function asyncFuntion() {
-   return new promis ((resolve,reject)=>
-   {
-      setTimeout(()=> 
-      {
-         console.log("data");
-         resolve("Successfull");
+
+
+// // Problem will be occure if we call multiple promisses they execute at same time
+
+// function asyncFuntion() {
+//    return new promis ((resolve,reject)=>
+//    {
+//       setTimeout(()=> 
+//       {
+//          console.log("data");
+//          resolve("Successfull");
          
-      },4000)
-   })
-}
+//       },4000)
+//    })
+// }
 
-function asyncFunction1() {
-   return new promis ((resolve,reject)=>
-   {
-      setTimeout(()=> 
-      {
-         console.log("data 1");
+// function asyncFunction1() {
+//    return new promis ((resolve,reject)=>
+//    {
+//       setTimeout(()=> 
+//       {
+//          console.log("data 1");
          
-      },2000)
-   })
-}
+//       },2000)
+//    })
+// }
 
 
 
-function asyncFunction2() {
-   return new promis ((resolve,reject)=>
-   {
-      setTimeout(()=> 
-      {
-         console.log("data 2");
+// function asyncFunction2() {
+//    return new promis ((resolve,reject)=>
+//    {
+//       setTimeout(()=> 
+//       {
+//          console.log("data 2");
          
-      },2000)
-   })
-}
+//       },2000)
+//    })
+// }
 
 
 
 
-let promis1 = asyncFunction();
-console.log("fetching data 1 ....");
-promis.then((res) =>
-{
-   console.log(res);
-});
+// let promis1 = asyncFunction();
+// console.log("fetching data 1 ....");
+// promis.then((res) =>
+// {
+//    console.log(res);
+// });
 
 
 
-let promis2 = asyncFunction1();
-console.log("fetching data 1 ....");
-promis.then((res) =>
-{
-   console.log(res);
-});
+// let promis2 = asyncFunction1();
+// console.log("fetching data 1 ....");
+// promis.then((res) =>
+// {
+//    console.log(res);
+// });
 
 
-let promis3 = asyncFunction1();
-console.log("fetching data 1 ....");
-promis.then((res) =>
-{
-   console.log(res);
-});
+// let promis3 = asyncFunction1();
+// console.log("fetching data 1 ....");
+// promis.then((res) =>
+// {
+//    console.log(res);
+// });
 
-// Problem will be occure when we execute multiple promis which means all function 
-// provide us feedback at a same time but we don't want this we just want 
-// these function execute orderly one by one because we want when we recieve 1st
-// function feedback and then we check its a true then we move next function if 
-// its fall or rejected promiss then don't need to go another function and execute
-// them all for example login function inwich we check first username if its true then 
-// we move passoword function otherwise no nead to go for check the password for 
-//  this reason we use promis chain which resolve our this problem
-
-
-
-// promis chain is better than as compare to callback 
-
-let p1 = asyncFunction();
-console.log("fetching data 1 ....");
-promis.then((res) =>
-{
-   console.log(res);
-   console.log("fetching data 2 ....");
-   let p2 = asyncFunction1();
-   promis5.then((res) =>
-   {
-      console.log(res);
-      console.log("fetching data 3 ....");
-      let p3 = asyncFunction2();
-
-   });
-
-});
-
-// we can more simplify promis chain
-
-console.log("fetching data 1 ....");
-asyncFunction().then((res) =>
-{
-   console.log("fetching data 2 ....");
-   asyncFunction1.then((res) =>
-   {
-      console.log("fetching data 3 ....");
-      asyncFunction2().then( (res) =>
-      {
-         console.log(res);
-      })
-
-   });
-
-});
-
-
-// we apply promiss chain on callback hell code which we resolve first before promis chain
+// // Problem will be occure when we execute multiple promis which means all function 
+// // provide us feedback at a same time but we don't want this we just want 
+// // these function execute orderly one by one because we want when we recieve 1st
+// // function feedback and then we check its a true then we move next function if 
+// // its fall or rejected promiss then don't need to go another function and execute
+// // them all for example login function inwich we check first username if its true then 
+// // we move passoword function otherwise no nead to go for check the password for 
+// //  this reason we use promis chain which resolve our this problem
 
 
 
-function getdata(dataID, getNextData)
-{
-   return new promis((res,rej) =>
-   {
-      setTimeout(() =>{
-         console.log("data", dataID);
-         resolve("Success");
-         // if(getNextData)
-         //    {
-         //       getNextData();
-         //    }
+// // promis chain is better than as compare to callback 
+
+// let p1 = asyncFunction();
+// console.log("fetching data 1 ....");
+// promis.then((res) =>
+// {
+//    console.log(res);
+//    console.log("fetching data 2 ....");
+//    let p2 = asyncFunction1();
+//    promis5.then((res) =>
+//    {
+//       console.log(res);
+//       console.log("fetching data 3 ....");
+//       let p3 = asyncFunction2();
+
+//    });
+
+// });
+
+// // we can more simplify promis chain
+
+// console.log("fetching data 1 ....");
+// asyncFunction().then((res) =>
+// {
+//    console.log("fetching data 2 ....");
+//    asyncFunction1.then((res) =>
+//    {
+//       console.log("fetching data 3 ....");
+//       asyncFunction2().then( (res) =>
+//       {
+//          console.log(res);
+//       })
+
+//    });
+
+// });
+
+
+// // we apply promiss chain on callback hell code which we resolve first before promis chain
+
+
+
+// function getdata(dataID, getNextData)
+// {
+//    return new promis((res,rej) =>
+//    {
+//       setTimeout(() =>{
+//          console.log("data", dataID);
+//          resolve("Success");
+//          // if(getNextData)
+//          //    {
+//          //       getNextData();
+//          //    }
    
-      },2000);
-   })
-}
+//       },2000);
+//    })
+// }
 
 
-console.log("fetching data 1 ...");
-getdata(1).then((res) =>
-{
-   console.log("fetching data 2 ...");
-   getdata(2).then((res) =>
-   {
-      console.log("fetching data 3 ...");
-      getdata(3).then((res) => 
-      {
-         consol.log(res);
-      })
-   });
+// console.log("fetching data 1 ...");
+// getdata(1).then((res) =>
+// {
+//    console.log("fetching data 2 ...");
+//    getdata(2).then((res) =>
+//    {
+//       console.log("fetching data 3 ...");
+//       getdata(3).then((res) => 
+//       {
+//          consol.log(res);
+//       })
+//    });
 
 
-});
-
-
-
-// we can do more simplify of our promis chain
-getdata(1)
-.then((res) =>
-{
-   return getdata(2);
-})
-.then((res) => 
-{
-   return getdata(3);
-})
-.then((res) => 
-{
-   console.log(res);
-});
+// });
 
 
 
+// // we can do more simplify of our promis chain
+// getdata(1)
+// .then((res) =>
+// {
+//    return getdata(2);
+// })
+// .then((res) => 
+// {
+//    return getdata(3);
+// })
+// .then((res) => 
+// {
+//    console.log(res);
+// });
 
-// Async Await 
-// Async Await is a best way for calling api according to callback and promises
 
-function getdata(dataID, getNextData)
-{
-   return new promis((res,rej) =>
-   {
-      setTimeout(() =>{
-         console.log("data");
-         resolve("Success");
-         // if(getNextData)
-         //    {
-         //       getNextData();
-         //    }
+
+
+// // Async Await 
+// // Async Await is a best way for calling api according to callback and promises
+
+// function getdata(dataID, getNextData)
+// {
+//    return new promis((res,rej) =>
+//    {
+//       setTimeout(() =>{
+//          console.log("data");
+//          resolve("Success");
+//          // if(getNextData)
+//          //    {
+//          //       getNextData();
+//          //    }
    
-      },2000);
-   })
-}
+//       },2000);
+//    })
+// }
 
 
-async function getapi() 
-{
-   await getdata(1);
-   console.log("fetching data 1 ...");
-   await getdata(2);
-   console.log("fetching data 2 ...");
-   await getdata(3);
-   console.log("fetching data 3 ...");
-   await getdata(4);
-   console.log("fetching data 4 ...");
+// async function getapi() 
+// {
+//    await getdata(1);
+//    console.log("fetching data 1 ...");
+//    await getdata(2);
+//    console.log("fetching data 2 ...");
+//    await getdata(3);
+//    console.log("fetching data 3 ...");
+//    await getdata(4);
+//    console.log("fetching data 4 ...");
    
-}
+// }
 
 
-getapi();
+// getapi();
 
 
 
-// IIFE Function
-// it is used for function execution without call 
+// // IIFE Function
+// // it is used for function execution without call 
 
-(async function getapi() 
-{
-   await getdata(1);
-   console.log("fetching data 1 ...");
-   await getdata(2);
-   console.log("fetching data 2 ...");
-   await getdata(3);
-   console.log("fetching data 3 ...");
-   await getdata(4);
-   console.log("fetching data 4 ...");
+// (async function getapi() 
+// {
+//    await getdata(1);
+//    console.log("fetching data 1 ...");
+//    await getdata(2);
+//    console.log("fetching data 2 ...");
+//    await getdata(3);
+//    console.log("fetching data 3 ...");
+//    await getdata(4);
+//    console.log("fetching data 4 ...");
    
-})();
+// })();
 
+
+// // IIFE Function
+// // it is used for function execution without call 
+
+// (async function getapi() 
+// {
+//    await getdata(1);
+//    console.log("fetching data 1 ...");
+//    await getdata(2);
+//    console.log("fetching data 2 ...");
+//    await getdata(3);
+//    console.log("fetching data 3 ...");
+//    await getdata(4);
+//    console.log("fetching data 4 ...");
+   
+// })();
+
+
+
+
+
+// const URL = "https://cat-fact.herokuapp.com/facts";
+
+
+// // let promise = fetch(URL);
+// // console.log(promise);
+
+
+
+// const getfacts = async () => 
+//    {
+//       let response = await fetch(URL);
+//       console.log(response);
+//       console.log(response.status);
+//       let data = await response.json();
+//       console.log(data, data.text);
+         
+//    }
+
+
+// getfacts();
+
+
+
+
+
+// let factpara1 = document.querySelector(".fact");
+
+// const getfacts1 = async () => 
+//    {
+//       let response = await fetch(URL);
+//       console.log(response);
+//       console.log(response.status);
+//       let data = await response.json();
+//       console.log(data);
+//       factpara.innerText = data[0].text;
+      
+//    }
+
+
+// getfacts();
+
+
+
+// const factpara2 = document.querySelector(".fact");
+// const btn = document.querySelector(".btn");
+
+// const getfacts2 = async () => 
+//    {
+//       let response = await fetch(URL);
+//       console.log(response);
+//       console.log(response.status);
+//       let data = await response.json();
+//       console.log(data);
+//     //   factpara.innerText = data[0].text;
+//     //   factpara.innerText = data[1].text;
+//       factpara.innerText = data[2].text;
+
+
+      
+//    }
+
+   
+// btn.addEventListener("click",getfacts);
+
+
+// let getapi = () =>
+//     {
+//         let data = fetch(URL)
+//         .then((response) =>
+//         {
+//             console.log(response);
+//             console.log(response.status);
+//             return response.json();
+
+//         })
+//         .then((data) =>
+//         {
+//             console.log(data);
+//             // factpara.innerText = data[0].text;
+//             //factpara.innerText = data[1].text;
+//             factpara.innerText = data[2].text;
+//         })
+//     }
+
+
+// btn.addEventListener("click",getapi);
 
 
 
