@@ -12,10 +12,25 @@ let info = [
 
 function canvote(info){
     voter = info
-            .filter(item => item.age > 18 && item.gender === "male")
-            .map(item => item.Name).length;
+            .filter(item => item.age > 18 && item.gender === "male").length
+            // .map(item => item.Name).length;
         
     return voter;
 }
 
-console.log(canvote(info))
+const solve = (info) => {
+    let arr = [];
+    for(let i=0; i<info.length; i++)
+    {
+        if(info[i].age > 18 && info[i].gender === "male")
+        {
+            arr.push(info[0]);
+        }
+    }
+
+    // arr.map(item => arr.Name);
+    return arr;
+}
+
+console.log(canvote(info));
+console.log(solve(info));
