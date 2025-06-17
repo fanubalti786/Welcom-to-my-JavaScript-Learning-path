@@ -48,8 +48,9 @@ console.log(content1);
 
 // readFile is asynchronous – it doesn't wait for the file to load.
 // So console.log runs before the file is ready, resulting in undefined or unexpected output.
-const content = fs.readFile("file1.txt", "utf-8");
-console.log(content); // Incorrect output
+
+// const content = fs.readFile("file1.txt", "utf-8");
+// console.log(content); // Incorrect output
 
 
 // Asynchronously reads the file. The callback runs only after the file is fully read.
@@ -62,3 +63,42 @@ fs.readFile("file1.txt", "utf-8", (err, data) => {
   }
 });
 
+
+
+// Functional arguments
+// Passing a function to another function as an argument is called callback funciton
+
+
+function sum (a,b)
+{
+  return a + b;
+}
+function doOperation(a,b,op) 
+{
+  return op(a,b);
+}
+
+const total = doOperation(1, 2, sum);
+console.log(total);
+
+
+
+// nice sync and async example with I/O bounded and CPU bounded
+
+console.log("HI");
+
+function timeout()
+{
+  console.log("click the button!");
+}
+
+setTimeout(timeout,1500);
+
+let c = 0;
+
+for(i=0; i<20; i++)
+{
+  c++;
+}
+
+console.log(c);
