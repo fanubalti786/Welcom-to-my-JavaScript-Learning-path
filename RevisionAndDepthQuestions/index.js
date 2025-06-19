@@ -66,7 +66,7 @@ fs.readFile("file1.txt", "utf-8", (err, data) => {
 
 
 // Functional arguments
-// Passing a function to another function as an argument is called callback funciton
+// Passing a function to another function
 
 
 function sum (a,b)
@@ -83,10 +83,12 @@ console.log(total);
 
 
 
-// nice sync and async example with I/O bounded and CPU bounded
+// Example demonstrating sync vs async behavior with I/O-bound and CPU-bound tasks
 
 console.log("HI");
 
+
+// I/O-bound async task (setTimeout schedules this function to run after 1.5 seconds)
 function timeout()
 {
   console.log("click the button!");
@@ -102,3 +104,205 @@ for(i=0; i<20; i++)
 }
 
 console.log(c);
+
+
+// what's the output
+/*
+  option1
+  Hi
+  click the button
+  vlue of c 20
+
+
+  option2 
+  Hi
+  value of c 20
+  click the button
+
+
+  Explanation:
+console.log("HI") and the for-loop run immediately (synchronous, CPU-bound).
+setTimeout` schedules `timeout()` to run after 1.5 seconds.
+Since the event loop waits for the call stack to clear, the async callback (`timeout()`) is executed after all synchronous code is done.
+*/
+
+
+
+
+
+//🔹 1. Synchronous Callback (Sync ki tarah)
+//Agar callback function turant call kiya jata hai bina kisi delay ke, to ye synchronous hota hai.
+
+function greet(name, callback) {
+  console.log("Hello " + name);
+  callback(); // called immediately
+}
+
+function sayBye() {
+  console.log("Goodbye!");
+}
+
+greet("Ali", sayBye);
+
+
+// Output:
+// Hello Ali
+// Goodbye!
+
+
+
+// 🔹 2. Asynchronous Callback (Async ki tarah)
+// Agar callback kisi asynchronous event (like setTimeout, fetch, ya readFile) ke baad run hota hai, to ye asynchronous hota hai.
+
+// Example:
+
+function fetchData(callback) {
+  setTimeout(() => {
+    console.log("Data fetched");
+    callback(); // called after delay
+  }, 2000);
+}
+
+function processData() {
+  console.log("Processing data");
+}
+
+fetchData(processData);
+
+
+// Output:
+
+// (2 second pause)
+// Data fetched
+// Processing data
+
+
+
+
+// Agar setTimeout(..., 0) 
+// lagao, to kya callback synchronous chalega? Nahi, phir bhi asynchronous hi chalega. 👇
+
+
+
+// 🔍 setTimeout(fn, 0) ka matlab kya hai?
+// Even though tumne 0ms delay diya hai, JavaScript callback ko turant execute nahi karta.
+// Usse event queue me daal diya jata hai, aur vo call stack empty hone ke baad hi execute hota hai.
+
+// 🧠 Example:
+
+console.log("Start");
+
+setTimeout(() => {
+  console.log("Inside setTimeout");
+}, 0);
+
+console.log("End");
+
+
+/*
+Output:
+Start
+End
+Inside setTimeout
+*/
+
+
+/*
+💡 Explanation:
+console.log("Start") — run hota hai
+
+setTimeout(..., 0) — callback event queue me chala gaya
+
+console.log("End") — call stack khatam hua
+
+Tab jaake callback run hota hai
+*/
+
+
+
+/*
+Q:
+Agar hum setTimeout ko loop ke andar lagate hain, to wo asynchronous behavior dikhata hai — 
+aur isme aksar beginners confuse ho jate hain.
+
+*/
+
+for (var i = 1; i <= 3; i++) {
+  setTimeout(() => {
+    console.log(i);
+  }, 1000);
+}
+
+/*
+Output:
+4
+4
+4
+
+❓ Aisa kyun hua?
+Kyunki setTimeout asynchronous hai, to loop pehle completely execute ho jata hai, aur uske baad sabhi setTimeout callbacks run hote hain.
+
+Jab setTimeout callbacks chalte hain, tab i = 4 ho chuka hota hai.
+
+Sabhi callbacks same reference (i) ko use karte hain.
+*/
+
+
+
+
+// ✅ Solution: (Using let instead of var)
+for (let i = 1; i <= 3; i++) {
+  setTimeout(() => {
+    console.log(i);
+  }, 1000);
+}
+
+// Output:
+/**
+1
+2
+3
+
+Why?
+Because let block-scoped hai — har iteration me i ki nayi copy banti hai.
+*/
+
+
+
+// ✅ OR: Use IIFE (Immediately Invoked Function Expression)
+for (var i = 1; i <= 3; i++) {
+  (function(j) {
+    setTimeout(() => {
+      console.log(j);
+    }, 1000);
+  })(i);
+}
+
+// ✔️ Ye bhi same correct output dega: 1, 2, 3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
