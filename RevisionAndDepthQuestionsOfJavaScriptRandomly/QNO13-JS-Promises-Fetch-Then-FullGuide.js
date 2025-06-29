@@ -124,3 +124,4 @@ fetch("https://jsonplaceholder.typicode.com/users/1")
 - ✅ Short form `.then(func)` is same as `.then(val => func(val))`
 - ✅ .catch() handles any rejection in the chain
 */
+v
